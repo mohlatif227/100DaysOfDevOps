@@ -13,3 +13,7 @@ You can find what I'd learnt on [Day001](Terraform-Day001/)
 ## Day002
 
 You can find what I'd learnt on [Day002](Terraform-Day002/)
+
+## Day003
+
+Today, I did learn about how to install terraform cli on MacOS using Homebrew package manager. You can find what I'd learnt on [Day003](Terraform-Day003/)
