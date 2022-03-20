@@ -19,3 +19,7 @@ You can find what I'd learnt on [Day002](Terraform-Day002/)
 Today, I did learn about how to install terraform cli on MacOS using Homebrew package manager. You can find what I'd learnt on [Day003](Terraform-Day003/)
 
 I'd added how to install terraform cli on RHEL, CentOS, and Fedora Linux Systems using yum/dnf package manager on [Day003](Terraform-Day003)
+
+## Day004
+
+Today I'd created my first terraform file and got familiar with resource block and how to use variable in terraform file.
