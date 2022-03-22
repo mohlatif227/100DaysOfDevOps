@@ -23,3 +23,7 @@ I'd added how to install terraform cli on RHEL, CentOS, and Fedora Linux Systems
 ## Day004
 
 Today I'd created my first terraform file and got familiar with resource block and how to use variable in terraform file.
+
+## Day005
+
+Today I'd learned about Resource Attributes and Resource Dependencies in Terraform and What is difference between implicit and explicit dependency
