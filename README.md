@@ -27,3 +27,19 @@ Today I'd created my first terraform file and got familiar with resource block a
 ## Day005
 
 Today I'd learned about Resource Attributes and Resource Dependencies in Terraform and What is difference between implicit and explicit dependency
+
+## Day006
+
+Today I did working on to understand how to get output variable and to use in another resource. Used below command to output variable value
+
+```
+terraform output
+```
+
+```
+terraform output variable1
+```
+
+```
+terraform output variabel2
+```
