@@ -30,7 +30,7 @@ Today I'd learned about Resource Attributes and Resource Dependencies in Terrafo
 
 ## Day006
 
-Today I did working on to understand how to get output variable and to use in another resource. Used below command to output variable value
+Today I did work on to understand how to get output variable and to use in another resource. Used below command to output variable value
 
 ```
 terraform output
