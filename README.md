@@ -48,4 +48,4 @@ terraform output variabel2
 
 Today I did learn how to create iam users using `aws_iam_users` resource and how to create s3 bucket using `aws_s3_bucket` and how to upload object to s3 bucket using `aws_s3_bucket_object` resource.
 
-you can check terraform file at [Day007](Terraform-Day007/)
+you can check terraform file at [Terraform-Day007](Terraform-Day007/)
