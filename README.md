@@ -49,3 +49,19 @@ terraform output variabel2
 Today I did learn how to create iam users using `aws_iam_users` resource and how to create s3 bucket using `aws_s3_bucket` and how to upload object to s3 bucket using `aws_s3_bucket_object` resource.
 
 you can check terraform file at [Terraform-Day007](Terraform-Day007/)
+
+## Day008
+
+Today I did learn following:
+1. How to create aws dynamodb table using `aws_dynamodb_table` resource.
+2. How to add item to dynamodb table using `aws_dynamodb_table_item` resource.
+3. What is Remote State and State Locking
+    * Remote State Backend with S3
+        * S3 bucket will be used to store terraform.tfstate file
+    * DynamoDB table will be used for state-locking and consistency check
+        * make sure that dynamodb table has to be create and primary key is set.
+    
+
+you can check the terraform file at [Terraform-Day008](Terraform-Day008/)
+
+
