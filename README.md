@@ -57,11 +57,18 @@ Today I did learn following:
 2. How to add item to dynamodb table using `aws_dynamodb_table_item` resource.
 3. What is Remote State and State Locking
     * Remote State Backend with S3
-        * S3 bucket will be used to store terraform.tfstate file
+        * S3 bucket will be used to store terraform.tfstate file.
     * DynamoDB table will be used for state-locking and consistency check
         * make sure that dynamodb table has to be create and primary key is set.
     
 
 you can check the terraform file at [Terraform-Day008](Terraform-Day008/)
+
+## Day009
+
+Today I did learn following:
+1. How to use Remote State Backend with S3.
+2. How to use AWS DynamoDB table for state locking.
+3. Please refer to https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa#0054 page for more details managing terraform state file.
 
 
