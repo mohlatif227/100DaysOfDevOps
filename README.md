@@ -80,4 +80,6 @@ Today I did work on how to provision:
 4. Using provisioner `local-exec` or `remote-exec` to execute/copy local script/remote script
     * local-exec Provisioner
         The local-exec provisioner invokes a local executable after a resource is created. This invokes a process on the machine running Terraform, not on the resource.
+
+## Day011
    
