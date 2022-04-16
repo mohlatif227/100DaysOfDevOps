@@ -11,3 +11,11 @@ module "payroll_app" {
   ami        = 
 }
 ```
+
+### Terraform workspace command:
+* To create new workspace
+`terraform worksapce new <workspace-name>`
+
+* To switch to existing terraform workspace
+`terraform workspace select <workspace-name>
+
