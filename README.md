@@ -82,4 +82,15 @@ Today I did work on how to provision:
         The local-exec provisioner invokes a local executable after a resource is created. This invokes a process on the machine running Terraform, not on the resource.
 
 ## Day011
-   
+Today I did work on:
+1. How to set logging for Terraform and save output to file using environment variable
+2. How to import existing infra which are not created using terraform or not managed by terraform using `terraform import` command
+3. What is Terrafor tainting
+
+# Day012
+Today I did work on:
+1. How to Use terraform functions
+    * Numeric Functions
+    * String Functions
+    * Collection Functions
+    * Map Functions
