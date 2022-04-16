@@ -17,5 +17,5 @@ module "payroll_app" {
 `terraform worksapce new <workspace-name>`
 
 * To switch to existing terraform workspace
-`terraform workspace select <workspace-name>
+`terraform workspace select <workspace-name>`
 
