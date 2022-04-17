@@ -87,10 +87,33 @@ Today I did work on:
 2. How to import existing infra which are not created using terraform or not managed by terraform using `terraform import` command
 3. What is Terrafor tainting
 
-# Day012
+## Day012
 Today I did work on:
 1. How to Use terraform functions
     * Numeric Functions
     * String Functions
     * Collection Functions
     * Map Functions
+
+## Day013
+
+Today I did work on:
+1. How to use `terraform validate` command to verification of the  configuration files. `terraform validate` command validates the resource block and the argument syntax but not the `values` the arguments expect for a specific resource.
+2. Use `terraform fmt` command to format the terraform configuration file in canonical format and style.
+3. Terraform LifeCycle Rules
+
+```
+resource "aws_instance" "example" {
+  # ...
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
+```
+### Syntax and Arguments
+`lifecycle` is a nested block that can appear within a resource block. The `lifecycle` block and its contents are meta-arguments, available for all `resource` blocks regardless of type.
+
+    * Use `create_before_destroy` (bool) lifecycle rule if you want terraform to create resource before deleting older one.
+    * Use `ignore_changes` lifecycle rule if certain changes to resources attributes to  be ignore by terraform while.
+    * Use `prevent_destroy` (bool) lifecycle rule prevents destroy of a resource
