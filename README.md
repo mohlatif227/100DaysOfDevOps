@@ -117,3 +117,18 @@ resource "aws_instance" "example" {
 * Use `create_before_destroy` (bool) lifecycle rule if you want terraform to create resource before deleting older one.
 * Use `ignore_changes` lifecycle rule if certain changes to resources attributes to  be ignore by terraform while.
 * Use `prevent_destroy` (bool) lifecycle rule prevents destroy of a resource
+
+
+### Version Constraints
+
+How to use a particular provider with version constraints
+```
+terraform {
+  required_providers {
+    aws = {
+      version = ">= 2.7.0"
+      source = "hashicorp/aws"
+    }
+  }
+}
+```
