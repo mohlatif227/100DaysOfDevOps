@@ -132,3 +132,6 @@ terraform {
   }
 }
 ```
+## Day014
+
+Started to prepare for Hashicorp Terraform Associate Exam, following [this youtube tutotial](https://www.youtube.com/watch?v=V4waklkBC38) for certification preparation.
